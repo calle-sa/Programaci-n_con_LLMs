@@ -1,0 +1,8 @@
+﻿Recibes un DataFrame de pandas con mediciones de sensores. 
+
+Tu misión es escribir una función llamada preparar_sensores(df, target_col) que:
+
+1. Separe las características (X) de la variable objetivo (y) usando target_col.
+2. En el conjunto X, limite los valores de cada columna al rango entre el percentil 5 y el 95 usando el método .clip().
+3. Escale los datos resultantes con StandardScaler de sklearn para que tengan media 0 y varianza 1.
+4. Devuelva una tupla con dos arrays de numpy: (X_procesado, y).

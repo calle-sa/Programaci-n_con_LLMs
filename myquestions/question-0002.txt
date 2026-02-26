@@ -1,0 +1,6 @@
+﻿Escribe una función llamada imputar_por_grupo(df, grupo_col, valor_col) que:
+
+1. Reciba un DataFrame donde valor_col tiene valores nulos (NaN).
+2. Impute los nulos de valor_col usando la mediana de esa misma columna, pero calculada por cada grupo definido en grupo_col.
+3. Si un grupo tiene todos sus valores nulos, use la mediana global de la columna.
+4. Devuelva el DataFrame con la columna valor_col completa.

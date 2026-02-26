@@ -1,0 +1,7 @@
+﻿Crea una función llamada codificar_y_dividir(df, target_col, test_size) que:
+
+1. Convierta las columnas de tipo objeto en variables numéricas usando OneHotEncoder con sparse=False.
+2. Mantenga las columnas numéricas originales.
+3. Coloque primero las columnas codificadas y luego las columnas numéricas originales.
+4. Divida el dataset en train/test usando test_size y random_state=42.
+5. Devuelva una tupla: (X_train, X_test, y_train, y_test).

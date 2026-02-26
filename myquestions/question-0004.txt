@@ -1,0 +1,5 @@
+﻿Escribe una función llamada evaluar_clasificador(X, y, n_neighbors) que:
+
+1. Entrene un modelo KNeighborsClassifier con el valor n_neighbors indicado.
+2. Use validación cruzada con cross_val_score usando cv=3 y scoring="accuracy".
+3. Devuelva el promedio de los scores como un float.
