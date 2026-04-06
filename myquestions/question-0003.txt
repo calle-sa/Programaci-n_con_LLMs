@@ -1,4 +1,4 @@
-﻿Crea una función llamada codificar_y_dividir(df, target_col, test_size) que:
+Crea una función llamada codificar_y_dividir(df, target_col, test_size) que:
 
 1. Convierta las columnas de tipo objeto en variables numéricas usando OneHotEncoder con sparse=False.
 2. Mantenga las columnas numéricas originales.

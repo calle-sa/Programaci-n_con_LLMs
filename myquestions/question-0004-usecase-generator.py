@@ -1,4 +1,4 @@
-﻿import numpy as np
+import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import cross_val_score
 

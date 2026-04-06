@@ -1,4 +1,4 @@
-﻿Recibes un DataFrame de pandas con mediciones de sensores. 
+Recibes un DataFrame de pandas con mediciones de sensores. 
 
 Tu misión es escribir una función llamada preparar_sensores(df, target_col) que:
 

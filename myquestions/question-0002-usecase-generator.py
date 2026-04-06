@@ -1,4 +1,4 @@
-﻿import pandas as pd
+import pandas as pd
 import numpy as np
 
 def generar_caso_de_uso_imputar_por_grupo():
