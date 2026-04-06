@@ -24,7 +24,7 @@ def generar_caso_de_uso_codificar_y_dividir():
 
     X_num = X.select_dtypes(include=[np.number]).values
 
-    ohe = OneHotEncoder(sparse=False)
+    ohe = OneHotEncoder(sparse_output=False)
     X_cat = ohe.fit_transform(X.select_dtypes(include=["object"]))
 
     X_final = np.hstack([X_cat, X_num])
